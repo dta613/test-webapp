@@ -1,0 +1,26 @@
+06/16/17
+2:14 AM - Working randomly at night - gummies 10mg THC + hookah + jack and coke
+        - started test environment for testing applications on Django
+        - Don't want to make test changes on working code for dawaCare
+2:16    - Re-installed virtualenv, command "virtualenv */DIR/ " works
+        - Currently the Users app is working, not the Dashboard app
+2:59    - Fixed Dashboard app
+        - Created Rough Draft of dashboard.html
+5:05    - Don't know why I am still coding
+        - Non-functional code
+          - Forms and template for dashboard.html is having issues
+          - dashboard.html does not work
+9:49    - Code works for dashboard.html using IndexView
+        - FormView is currently not working on form.html
+
+        Request Method:	GET
+        Request URL:	http://localhost:8000/form/
+        Django Version:	1.8.13
+        Exception Type:	TypeError
+        Exception Value:
+        this constructor takes no arguments
+
+        - Patient_list class does not render properly
+10:07   - Code works for both form.html and dashboard.html to display views
+        - Current issue is with submitting valid data from the form.html
+10:42   - forms.html is not sending the POST request

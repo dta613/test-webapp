@@ -1,0 +1,13 @@
+<a href="{% url 'dashboard' %}">Dashboard</a>
+
+
+
+<h1>FORM for Patient Data Entry</h1>
+{{ form.as_table }}
+
+
+<form action="/form/" method="post">
+    {% csrf_token %}
+    {{ Patient_form }}
+    <input type="submit" value="OK">
+</form>
