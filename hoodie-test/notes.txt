@@ -1,6 +1,6 @@
 06/16/2017
 
-10:51 - Launched hood.ie testapp
+10:51 - Launched hoodie testapp
       - Works with the public directory, displays index.html
 
 
