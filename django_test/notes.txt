@@ -1,7 +1,7 @@
 06/16/17
-2:14 AM - Working randomly at night - gummies 10mg THC + hookah + jack and coke
+2:14 AM - Working randomly at night
         - started test environment for testing applications on Django
-        - Don't want to make test changes on working code for dawaCare
+        - Don't want to make test changes on working code
 2:16    - Re-installed virtualenv, command "virtualenv */DIR/ " works
         - Currently the Users app is working, not the Dashboard app
 2:59    - Fixed Dashboard app
