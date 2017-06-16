@@ -2,6 +2,8 @@
 
 Django, NodeJS, and Hood.ie
 
+Please refer to the notes.txt file in each individual framework to track the issues and working aspects of those projects.
+
 To start the Django project -
   - Run pip install pip-requirements.txt
   - Run python manage.py runserver

@@ -1,0 +1,5 @@
+06/16/17
+
+11:22 - Does not have public directory
+      - index.ejs is not present
+      - Nothing to render at this time
