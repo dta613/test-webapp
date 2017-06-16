@@ -1,6 +1,6 @@
 # test-webapp
 
-We are featuring Django, NodeJS, and Hood.ie
+Django, NodeJS, and Hood.ie
 
 To start the Django project -
   - Run pip install pip-requirements.txt
