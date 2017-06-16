@@ -15,7 +15,7 @@ To start the NodeJS project -
   - Check localhost:5000
 
 
-To start the Hood.ie project -
+To start the Hoodie project -
   - Run npm install
   - Run npm start
   - Check localhost:8080
