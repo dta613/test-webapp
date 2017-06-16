@@ -11,3 +11,5 @@ Congratulations, you just created your first Hoodie Backend :) You can now load 
 
 <script src="http://127.0.0.1:8080/hoodie/client.js"></script>
 You can also create a public/index.html file, which will be served at http://127.0.0.1:8080 after you restart the server. All assets in the public folder, like images, CSS files or JavaScript files, will be served by your Hoodie Backend at http://127.0.0.1:8080/<path/to/your/file.ext>.
+
+11:25 - Index.html is being displayed
