@@ -1,6 +1,6 @@
 # test-webapp
 
-Django, NodeJS, and Hood.ie
+Django, NodeJS, and Hoodie
 
 Please refer to the notes.txt file in each individual framework to track the issues and working aspects of those projects.
 
