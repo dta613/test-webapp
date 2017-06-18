@@ -24,3 +24,9 @@
 10:07   - Code works for both form.html and dashboard.html to display views
         - Current issue is with submitting valid data from the form.html
 10:42   - forms.html is not sending the POST request
+
+06/18/2017
+
+6:33 - There is an issue with form saving information.
+      - Added contacts app from "Effective Django" tutorial
+      - 

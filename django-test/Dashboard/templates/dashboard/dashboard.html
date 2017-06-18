@@ -4,7 +4,7 @@
 
 <h1>Dashboard</h1>
 <ul>
-{% for Patient in Patient_list %}
+{% for Patient in Patient_form %}
     <li>{{ Patient.Patient_name }} - {{ Patient.condition }}</li>
 {% empty %}
     <h2>No patient information to be displayed.</h2>

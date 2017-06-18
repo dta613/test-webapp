@@ -48,8 +48,8 @@ class IndexView(generic.ListView):
 
 #    return render(request, 'name.html', {'form': form})
 
-
-
+class Patient_list(ListView):
+    model = Patient
 
 class MyFormView(FormView):
     form_class = Patient_form
