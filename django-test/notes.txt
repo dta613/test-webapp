@@ -39,3 +39,4 @@
       - need to make a migration - issues!
 11:40 - users are able to be signup, login, logout
       - commit pushed to github
+      - working on deploying to Heroku

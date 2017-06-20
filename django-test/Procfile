@@ -1,0 +1,1 @@
+Web: python manage.py runserver
