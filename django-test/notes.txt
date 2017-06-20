@@ -29,4 +29,13 @@
 
 6:33 - There is an issue with form saving information.
       - Added contacts app from "Effective Django" tutorial
-      - 
+
+06/19/2017
+8:47 - Deleted apps Users and contacts Application
+     - Using built-in django authentication - tests are OK!
+     - Users are able to be created and logged in
+
+10:19 - renamed dashboard app
+      - need to make a migration - issues!
+11:40 - users are able to be signup, login, logout
+      - commit pushed to github

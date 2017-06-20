@@ -14,21 +14,17 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from Dashboard import views as dashboard_views
-from Users import views as users_views
-from contacts import views as contacts_views
+from django.contrib.auth import views as auth_views
+from dashboard import views as dashboard_views
+from users import views as users_views
 
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-	url(r'^login/$', users_views.Login.as_view(), name='users-login'),
-    url(r'^logout/$', users_views.Logout.as_view(), name='users-logout'),
-    url(r'^register/$', users_views.Register.as_view(), name='users-register'),
-    url(r'^dashboard/$', dashboard_views.IndexView.as_view(), name='dashboard'),
-    url(r'^form/$', dashboard_views.MyFormView.as_view(), name='form'),
+	url(r'^login/', auth_views.login, name='login'),
+    url(r'^logout/$', users_views.logout, name='logout'),
+    url(r'^signup/', users_views.signup, name='signup'),
+    url(r'^dashboard/', dashboard_views.IndexView.as_view(), name='dashboard'),
+    url(r'^form/', dashboard_views.MyFormView.as_view(), name='form'),
     url(r'^list/$', dashboard_views.Patient_list.as_view(), name='list'),
-    url(r'^$', contacts_views.ListContactView.as_view(),
-        name='contacts-list',),
-    url(r'^new$', contacts_views.CreateContactView.as_view(),
-    name='contacts-new',),
 ]
