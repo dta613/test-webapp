@@ -24,3 +24,6 @@ def signup(request):
 
 def logout(request):
     return render(request, 'logout.html',)
+
+def index(request):
+    return render(request, 'index.html',)
