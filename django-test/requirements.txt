@@ -57,7 +57,7 @@ pandas==0.20.2
 parsel==1.2.0
 pbr==3.0.1
 phonenumbers==8.5.1
-Pillow==4.1.1
+Pillow==9.0.0
 pisa==3.0.33
 polib==1.0.8
 psycopg2==2.7.1
