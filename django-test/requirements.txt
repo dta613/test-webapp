@@ -45,7 +45,7 @@ incremental==17.5.0
 ipaddress==1.0.18
 iso639==0.1.4
 kombu==4.0.2
-lxml==3.8.0
+lxml==4.9.1
 matplotlib==2.0.2
 mccabe==0.6.1
 mercurial==3.9
